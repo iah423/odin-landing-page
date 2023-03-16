@@ -10,18 +10,77 @@
     <header>
       <h1>The Dalson Estate</h1>
       <nav>
-        <ul>
-          <li>header link one</li>
-          <li>header link two</li>
-          <li>header link three</li>
+        <ul class="links">
+          <li id="github"><a href="https://github.com/iah423">Github</a></li>
+          <li id="emailt"><a href="mailto:iaharris423@gmail.com">Gmail</a></li>
+          <li id="freecodecamp"><a href="https://www.freecodecamp.org/iah423">freeCodeCamp</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
-      <section role="region" aria-labelledby="hero-section">
-        <h2 id="hero-text">Welcome to our humble home.</h2>
-        <h3>Subtext goes here. Subtext is also for cowards.</h3>
+      <section role="region" aria-labelledby="hero-section" id="hero-section">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h2 id="hero-main-text">Welcome to our humble home.</h2>
+            <h3 id="secondary-text">Subtext goes here. Subtext is also for cowards.</h3>
+            <button class="top-button">Press me. I do nothing.</button>
+          </div>
+          <img class="hero-img" src="https://images.pexels.com/photos/580679/pexels-photo-580679.jpeg">
+        </div>
       </section>
+
+      <div id="picture-section">
+        <h1 id="information-header">Some random information</h1>
+
+        <div id="portfolio-container">
+          <div class="portfolio">
+            <img class="portfolio-pic" src="https://images.unsplash.com/photo-1615143284677-f2f27242107e?ixli">
+            <div class="picture-subtext">Placeholder text</div>
+          </div>
+
+          <div class="portfolio">
+            <img class="portfolio-pic" src="https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg">
+            <div class="picture-subtext">Recipe Page</div>
+          </div>
+
+          <div class="portfolio">
+            <img class="portfolio-pic" src="https://images.pexels.com/photos/15951943/pexels-photo-15951943.jpeg">
+            <div class="picture-subtext">More placeholder text</div>
+          </div>
+
+          <div class="portfolio">
+            <img class="portfolio-pic" src="https://images.pexels.com/photos/315191/pexels-photo-315191.jpeg">
+            <div class="picture-subtext">Even more placeholder text</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="quote-section">
+        <blockquote>
+          <p>"Acts of goodness are not always wise, and acts of evil are not always foolish. But regardless, we shall always strive to be good."</p>
+          <cite>-Logarius</cite>
+        </blockquote>
+      </div>
+
+      <div id="call-to-action-section">
+        <div class="textbox">
+          <div class="call-to-action-text">
+            <h2>Call to action! It's Time!</h2>
+            <p>Sign up for our product by clicking that button right over there!</p>
+            <p><em>(The button does nothing!)</em></p>
+          </div>
+          <button class="bottom-button">Sign up</button>
+        </div>
+      </div>
+
     </main>
+
+    <footer>
+      <p>Copyright © iah423
+        <br>
+        The Odin Project
+      </p>
+    </footer>
   </body>
 </html>
